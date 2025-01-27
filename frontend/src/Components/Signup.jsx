@@ -23,7 +23,7 @@ const Signup = () => {
     e.preventDefault()
     // API call
     try {
-      const res = await axios.post('http://localhost:8000/api/v1/user/register',input, {
+      const res = await axios.post('https://gmail-clone-cqdy.onrender.com/api/v1/user/register',input, {
         headers: {
           'Content-Type':'application/json'
         },

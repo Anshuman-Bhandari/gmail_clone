@@ -9,7 +9,7 @@ const useGetAllEmails = () => {
     useEffect(() => {
         const fetchEmails = async() => {
             try {
-                const res = await axios.get('http://localhost:8000/api/v1/email/getallemails', {
+                const res = await axios.get('https://gmail-clone-cqdy.onrender.com/api/v1/email/getallemails', {
                     withCredentials:true
                 })
                 dispatch(setEmails(res.data.emails))
