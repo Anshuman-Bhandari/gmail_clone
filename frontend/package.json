@@ -96,6 +96,7 @@
     "glob-parent": "^6.0.2",
     "globals": "^15.14.0",
     "globalthis": "^1.0.4",
+    "gmail-clone": "file:..",
     "gmailclone": "^1.0.0",
     "goober": "^2.1.16",
     "gopd": "^1.2.0",
@@ -259,8 +260,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "rollup": "^4.32.0"
-  }
+  "license": "ISC"
 }
