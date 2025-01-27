@@ -234,7 +234,6 @@
     "strip-json-comments": "^3.1.1",
     "supports-color": "^7.2.0",
     "supports-preserve-symlinks-flag": "^1.0.0",
-    "tailwindcss": "^4.0.0",
     "tapable": "^2.2.1",
     "turbo-stream": "^2.4.0",
     "type-check": "^0.4.0",
@@ -266,6 +265,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.4"
+    "@tailwindcss/oxide": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0"
   }
 }
