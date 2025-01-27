@@ -1,0 +1,16 @@
+-- GMAIL CLONE --
+   MERN Stack
+
+>> Front-end Dependencies
+-- npm install tailwindcss @tailwindcss/vite
+-- npm i react-icons
+-- npm i react-avatar
+-- npm i react-router-dom
+-- npm i @reduxjs/toolkit react-redux
+-- npm i axios
+-- npm i react-hot-toast
+-- npm i redux-persist
+
+>> Back-end Dependencies
+-- npm i express mongoose bcryptjs jsonwebtoken nodemon cookie-parser dotenv cors
+-- using mongoDB Atlas
