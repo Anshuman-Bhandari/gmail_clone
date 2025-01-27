@@ -1,16 +1,23 @@
 {
-  "name": "gmailclone",
+  "name": "gmail-clone",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "dev": "nodemon backend/index.js",
+    "dev":"nodemon backend/index.js",
     "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start":"nodemon backend/index.js"
+    "start": "nodemon backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshuman-Bhandari/gmail_clone.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anshuman-Bhandari/gmail_clone/issues"
+  },
+  "homepage": "https://github.com/Anshuman-Bhandari/gmail_clone#readme",
   "description": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
